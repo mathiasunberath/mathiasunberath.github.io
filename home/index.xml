@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Mathias Unberath</title>
+    <link>https://mathiasunberath.github.io/home/</link>
+    <description>Recent content in Homes on Mathias Unberath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://mathiasunberath.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://mathiasunberath.github.io/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/home/hero/</guid>
+      <description>Imaging
+Machine Learning
+Augmented Realty</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mathiasunberath.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/home/about/</guid>
+      <description>Biography I am a postdoctoral fellow at the Laboratory for Computational Sensing and Robotics at Johns Hopkins University.
+My research consolidates efforts in computer vision, medical physics, and medicine to develop surgeon-centric, end-to-end computer-assisted solutions for image-guided surgery. Currently, I am particularly interested in advancing interventional image processing to tailor image acquisition and augmented reality environments to the clinical task.</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://mathiasunberath.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://mathiasunberath.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/home/publications/</guid>
+      <description>For a comprehensive list of my publications please refer to either my CV or my Google Scholar.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://mathiasunberath.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

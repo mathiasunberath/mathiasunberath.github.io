@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Mathias Unberath</title>
+    <link>https://mathiasunberath.github.io/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Mathias Unberath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://mathiasunberath.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 Papers at MICCAI 2018</title>
+      <link>https://mathiasunberath.github.io/talk/miccai_papers/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/miccai_papers/</guid>
+      <description>All our 5 manuscripts submitted to MICCAI 2018 were accepted for presentation (3 early accepts)!
+Pre-prints of our papers are available from arXiv and videos are available from this link (* starred authors are considered joint first):
+M. Unberath, J.-N. Zaech, S. C. Lee, B. Bier, J. Fotouhi, M. Armand, N. Navab. “DeepDRR: A Catalyst for Machine Learning in Fluoroscopy-guided Procedures”.
+J. Fotouhi, M. Unberath, G. Taylor*, A. G. Farashahi, B.</description>
+    </item>
+    
+    <item>
+      <title>Two DELTA Grants Awarded</title>
+      <link>https://mathiasunberath.github.io/talk/delta_awards/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/delta_awards/</guid>
+      <description>Augmented Reality for Immersive 3-D Education in Complex Pelvic Trauma Surgery The key challenge in treating unstable pelvic fractures, the proposal says, is that the doctors have to do mental mapping of plate positioning and screw trajectories to the fractured anatomy, a skill that surgeons-in-training cannot easily acquire from conventional two-dimensional materials. The grant will be used to create a three-dimensional learning environment that incorporates augmented reality.
+Personalized Augmented Reality as an Interactive Teaching Tool for Facial Anatomy Anatomy is one of the most challenging subject matters to both teach and learn, and facial anatomy is one of the most complex regions.</description>
+    </item>
+    
+  </channel>
+</rss>

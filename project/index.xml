@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Mathias Unberath</title>
+    <link>https://mathiasunberath.github.io/project/</link>
+    <description>Recent content in Projects on Mathias Unberath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://mathiasunberath.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Magic Mirror for Facial Anatomy Tracking</title>
+      <link>https://mathiasunberath.github.io/project/delta_derma/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/project/delta_derma/</guid>
+      <description>Significance: Anatomy is one of the most challenging subject matters to both teach and learn, and facial anatomy is one of the most complex anatomical regions. Current education relies heavily on cadaveric dissection, supplemented by textbooks; however, human cadavers are expensive and limited in availability, and reading textbooks can feel like a chore to some students. Augmented reality (AR) has the potential to transform the process of learning human anatomy. By blending real and virtual objects, AR allows learners to immerse themselves in the subject matter and take an active role in the learning process.</description>
+    </item>
+    
+    <item>
+      <title>Augmented Reality for Surgery</title>
+      <link>https://mathiasunberath.github.io/project/augmented_reality/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/project/augmented_reality/</guid>
+      <description>Virtual monitors: During traditional image-guided interventions, images are displayed on designated monitors that cannot be positioned optimally due to sterility and spatial constraints. With the aid of optical see-through head-mounted display, we present a novel virtual monitor system that displays medical images in real-time in a mixed reality visualization, which can potentially alleviates the occlusion problem, improves hand-eye coordination, and reduces neck fatigue. The virtual monitor system consists of a medical imaging modality, a frame grabber, an image processing framework, a data transfer network, and a head-mounted display.</description>
+    </item>
+    
+    <item>
+      <title>Educating Surgeons in Complex Pelvic Trauma</title>
+      <link>https://mathiasunberath.github.io/project/delta_ortho/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/project/delta_ortho/</guid>
+      <description>Significance: Treatment of unstable pelvic fractures relies on open reduction followed by internal fixation using surgical plates and screws, a surgery only performed by highly experienced and well-trained surgeons due to the complexity of the pelvic anatomy. The key challenge is the mental mapping of plate positioning and screw trajectories to the fractured anatomy in 3D, a skill that surgeons in training cannot easily acquire from conventional 2D training material such as textbooks, websites, or illustrations from their instructor.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Fluoroscopy-guided Procedures</title>
+      <link>https://mathiasunberath.github.io/project/learning_for_fluoro/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/project/learning_for_fluoro/</guid>
+      <description>Machine learning-based approaches outperform competing methods in most disciplines relevant to diagnostic radiology. Interventional radiology, however, has not yet benefited substantially from the advent of deep learning, in particular because of two reasons: 1) Most images acquired during the procedure are never archived and are thus not available for learning, and 2) even if they were available, annotations would be a severe challenge due to the vast amounts of data. When considering fluoroscopy-guided procedures, an interesting alternative to true interventional fluoroscopy is in silico simulation of the procedure from 3D diagnostic CT.</description>
+    </item>
+    
+  </channel>
+</rss>

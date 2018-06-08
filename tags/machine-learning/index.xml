@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine-learning on Mathias Unberath</title>
+    <link>https://mathiasunberath.github.io/tags/machine-learning/</link>
+    <description>Recent content in Machine-learning on Mathias Unberath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://mathiasunberath.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Machine Learning for Fluoroscopy-guided Procedures</title>
+      <link>https://mathiasunberath.github.io/project/learning_for_fluoro/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/project/learning_for_fluoro/</guid>
+      <description>Machine learning-based approaches outperform competing methods in most disciplines relevant to diagnostic radiology. Interventional radiology, however, has not yet benefited substantially from the advent of deep learning, in particular because of two reasons: 1) Most images acquired during the procedure are never archived and are thus not available for learning, and 2) even if they were available, annotations would be a severe challenge due to the vast amounts of data. When considering fluoroscopy-guided procedures, an interesting alternative to true interventional fluoroscopy is in silico simulation of the procedure from 3D diagnostic CT.</description>
+    </item>
+    
+  </channel>
+</rss>
