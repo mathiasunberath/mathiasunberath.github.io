@@ -19,9 +19,9 @@
       
       <guid>https://mathiasunberath.github.io/talk/miccai_papers/</guid>
       <description>All our 5 manuscripts submitted to MICCAI 2018 were accepted for presentation (3 early accepts)!
-Pre-prints of our papers are available from arXiv and videos are available from this link (* starred authors are considered joint first):
-M. Unberath, J.-N. Zaech, S. C. Lee, B. Bier, J. Fotouhi, M. Armand, N. Navab. “DeepDRR: A Catalyst for Machine Learning in Fluoroscopy-guided Procedures”.
-J. Fotouhi, M. Unberath, G. Taylor*, A. G. Farashahi, B.</description>
+Pre-prints of our papers are available from arXiv and videos are available from this link (&amp;#42; starred authors are considered joint first):
+M. Unberath&amp;#42;, J.-N. Zaech&amp;#42;, S. C. Lee, B. Bier, J. Fotouhi, M. Armand, N. Navab. “DeepDRR: A Catalyst for Machine Learning in Fluoroscopy-guided Procedures”.
+J. Fotouhi&amp;#42;, M. Unberath&amp;#42;, G. Taylor&amp;#42;, A. G. Farashahi, B.</description>
     </item>
     
     <item>
@@ -40,6 +40,18 @@ J. Fotouhi, M. Unberath, G. Taylor*, A. G. Farashahi, B.</description>
       
       <guid>https://mathiasunberath.github.io/talk/saot_innovation_day/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Several Awards at MICCAI 2018 including Young Researcher Award</title>
+      <link>https://mathiasunberath.github.io/talk/miccai_awards/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/miccai_awards/</guid>
+      <description>Here&amp;rsquo;s the full list of our awarded papers: Reckognized with the MICCAI Young Researcher Award and a Student Travel Award for Bastian.
+B. Bier&amp;#42;, M. Unberath&amp;#42;, J.-N. Zaech, J. Fotouhi, M. Armand, G. Osgood, N. Navab, A. Maier. “X-ray-transform Invariant Anatomical Landmark Detection for Pelvic Trauma Surgery”
+&amp;#42; These authors are considered joint first authors.
+Awarded with the Best Paper Award in the MICCAI Workshop on Computer Assisted and Robotic Endoscopy.</description>
     </item>
     
     <item>

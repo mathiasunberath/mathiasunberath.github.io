@@ -18,21 +18,21 @@
       <guid>https://mathiasunberath.github.io/talk/miccai_papers/</guid>
       <description>&lt;p&gt;All our 5 manuscripts submitted to MICCAI 2018 were accepted for presentation (3 early accepts)!&lt;/p&gt;
 
-&lt;p&gt;Pre-prints of our papers are available from arXiv and videos are available from &lt;a href=&#34;https://camp.lcsr.jhu.edu/miccai-2018-demonstration-videos/&#34; target=&#34;_blank&#34;&gt;this link&lt;/a&gt; (* starred authors are considered joint first):&lt;/p&gt;
+&lt;p&gt;Pre-prints of our papers are available from arXiv and videos are available from &lt;a href=&#34;https://camp.lcsr.jhu.edu/miccai-2018-demonstration-videos/&#34; target=&#34;_blank&#34;&gt;this link&lt;/a&gt; (&lt;sup&gt;&amp;#42;&lt;/sup&gt; starred authors are considered joint first):&lt;/p&gt;
 
-&lt;p&gt;M. Unberath&lt;em&gt;, J.-N. Zaech&lt;/em&gt;, S. C. Lee, B. Bier, J. Fotouhi, M. Armand,
+&lt;p&gt;M. Unberath&lt;sup&gt;&amp;#42;&lt;/sup&gt;, J.-N. Zaech&lt;sup&gt;&amp;#42;&lt;/sup&gt;, S. C. Lee, B. Bier, J. Fotouhi, M. Armand,
 N. Navab. “DeepDRR: A Catalyst for Machine Learning in Fluoroscopy-guided Procedures”.&lt;/p&gt;
 
-&lt;p&gt;J. Fotouhi&lt;em&gt;, M. Unberath&lt;/em&gt;, G. Taylor*, A. G. Farashahi, B. Bier, R. Taylor,
+&lt;p&gt;J. Fotouhi&lt;sup&gt;&amp;#42;&lt;/sup&gt;, M. Unberath&lt;sup&gt;&amp;#42;&lt;/sup&gt;, G. Taylor&lt;sup&gt;&amp;#42;&lt;/sup&gt;, A. G. Farashahi, B. Bier, R. Taylor,
 G. Osgood, M. Armand, N. Navab. “Exploiting Partial Structural Symmetry for Patient-Specific Image Augmentation in Trauma Interventions.&lt;/p&gt;
 
-&lt;p&gt;B. Bier&lt;em&gt;, M. Unberath&lt;/em&gt;, J.-N. Zaech, J. Fotouhi, M. Armand, G. Osgood,
+&lt;p&gt;B. Bier&lt;sup&gt;&amp;#42;&lt;/sup&gt;, M. Unberath&lt;sup&gt;&amp;#42;&lt;/sup&gt;, J.-N. Zaech, J. Fotouhi, M. Armand, G. Osgood,
 N. Navab, A. Maier. “X-ray-transform Invariant Anatomical Landmark Detection for Pelvic Trauma Surgery”.&lt;/p&gt;
 
 &lt;p&gt;A. Preuhs, A. Maier, M. Manhart, J. Fotouhi, N. Navab, M. Unberath.
 “Double Your Views – Expoiting Symmetry in Transmission Imaging”.&lt;/p&gt;
 
-&lt;p&gt;J. Hajek&lt;em&gt;, M. Unberath&lt;/em&gt;, J. Fotouhi*, B. Bier, S. C. Lee, G. Osgood, A. Maier, M. Armand, N. Navab. “Closing the Calibration Loop: An Inside-out Tracking Paradigm for Augmented Reality in Orthopedic Surgery”&lt;/p&gt;
+&lt;p&gt;J. Hajek&lt;sup&gt;&amp;#42;&lt;/sup&gt;, M. Unberath&lt;sup&gt;&amp;#42;&lt;/sup&gt;, J. Fotouhi&lt;sup&gt;&amp;#42;&lt;/sup&gt;, B. Bier, S. C. Lee, G. Osgood, A. Maier, M. Armand, N. Navab. “Closing the Calibration Loop: An Inside-out Tracking Paradigm for Augmented Reality in Orthopedic Surgery”&lt;/p&gt;
 </description>
     </item>
     
@@ -53,6 +53,28 @@ N. Navab, A. Maier. “X-ray-transform Invariant Anatomical Landmark Detection f
       
       <guid>https://mathiasunberath.github.io/talk/saot_innovation_day/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Several Awards at MICCAI 2018 including Young Researcher Award</title>
+      <link>https://mathiasunberath.github.io/talk/miccai_awards/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/miccai_awards/</guid>
+      <description>
+
+&lt;h2 id=&#34;here-s-the-full-list-of-our-awarded-papers&#34;&gt;Here&amp;rsquo;s the full list of our awarded papers:&lt;/h2&gt;
+
+&lt;p&gt;Reckognized with the &lt;strong&gt;MICCAI Young Researcher Award&lt;/strong&gt; and a &lt;strong&gt;Student Travel Award&lt;/strong&gt; for Bastian.&lt;br /&gt;
+B. Bier&lt;sup&gt;&amp;#42;&lt;/sup&gt;, M. Unberath&lt;sup&gt;&amp;#42;&lt;/sup&gt;, J.-N. Zaech, J. Fotouhi, M. Armand, G. Osgood, N. Navab, A. Maier. “X-ray-transform Invariant Anatomical Landmark Detection for Pelvic Trauma Surgery”&lt;br /&gt;
+&lt;sup&gt;&amp;#42;&lt;/sup&gt; These authors are considered joint first authors.&lt;/p&gt;
+
+&lt;p&gt;Awarded with the &lt;strong&gt;Best Paper Award&lt;/strong&gt; in the MICCAI Workshop on Computer Assisted and Robotic Endoscopy. Xingtong also won &lt;strong&gt;Best Presentation&lt;/strong&gt; for his delivery of the work!&lt;br /&gt;
+X. Liu, A. Sinha, M. Unberath, M. Ishii, G. Hager, A. Reiter, R. Taylor. &amp;ldquo;Self-supervised Learning for Dense Depth Estimation in Monocular Endoscopy&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Awarded with the &lt;strong&gt;Second Best Paper Award&lt;/strong&gt; in the MICCAI Workshop on Computer Assisted and Robotic Endoscopy.&lt;br /&gt;
+C. Gao, X.Liu, M. Peven, M. Unberath, A. Reiter. &amp;ldquo;Learning to See Forces: Surgical Force Prediction with RGB-Point Cloud Temporal Convolutional Networks&amp;rdquo;&lt;/p&gt;
+</description>
     </item>
     
     <item>
