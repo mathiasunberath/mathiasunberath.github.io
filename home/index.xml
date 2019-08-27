@@ -29,8 +29,8 @@ Augmented Realty</description>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>https://mathiasunberath.github.io/home/about/</guid>
-      <description>Biography I am an Assistant Research Professor at the Deparment of Computer Science at Johns Hopkins University and affiliated with the Laboratory for Computational Sensing and Robotics and the Malone Center for Engineering in Healthcare.
-My research consolidates efforts in computer vision, medical physics, and medicine to develop surgeon-centric, end-to-end computer-assisted solutions for image-guided surgery. Currently, I am particularly interested in advancing interventional image processing to tailor image acquisition and augmented reality environments to the clinical task.</description>
+      <description>Biography I am an Assistant Research Professor in the Deparment of Computer Science at Johns Hopkins University and affiliated with the Laboratory for Computational Sensing and Robotics and the Malone Center for Engineering in Healthcare.
+My research research at the intersection of computer vision including augmented reality, machine learning, and medical physics has been recognized with multiple national and international awards, and aims at pushing the boundaries of computer assistance in medical imaging and image-guided interventions.</description>
     </item>
     
     <item>
@@ -49,15 +49,6 @@ My research consolidates efforts in computer vision, medical physics, and medici
       
       <guid>https://mathiasunberath.github.io/home/publications/</guid>
       <description>For a comprehensive list of my publications please refer to either my CV or my Google Scholar.</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://mathiasunberath.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>https://mathiasunberath.github.io/home/projects/</guid>
-      <description></description>
     </item>
     
   </channel>

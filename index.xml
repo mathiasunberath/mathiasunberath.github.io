@@ -11,6 +11,28 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>3 Papers at MICCAI 2019</title>
+      <link>https://mathiasunberath.github.io/talk/miccai_papers_19/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/miccai_papers_19/</guid>
+      <description>&lt;p&gt;We will be presenting 3 papers at MICCAI 2019!&lt;/p&gt;
+
+&lt;p&gt;J.-N. Zaech, C. Gao, B. Bier, R. Taylor, A. Maier, N. Navab, M. Unberath.
+“Learning to Avoid Poor Images: Towards Task-aware C-arm Cone-beam
+CT Trajectories”
+Received a MICCAI Graduate Student Travel Award based on its review scores.
+Selected for &lt;strong&gt;oral&lt;/strong&gt; presentation.&lt;/p&gt;
+
+&lt;p&gt;L. Fink, S.C. Lee, J.Y. Wu, X. Liu, T. Song, Y. Stoyanova, M. Stamminger,
+N. Navab, M. Unberath. &amp;ldquo;LumiPath - Towards Real-time Physicallybased
+Rendering on Embedded Devices&amp;rdquo; &lt;a href=&#34;https://github.com/lorafib/LumiPath&#34; target=&#34;_blank&#34;&gt;Link to GitHub&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/1903.03837&#34; target=&#34;_blank&#34;&gt;Link to preprint&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J. Esteban, M. Grimm, M. Unberath, G. Zahnd, N. Navab. &amp;ldquo;Towards fully automatic X-ray to CT registration&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>5 Papers at MICCAI 2018</title>
       <link>https://mathiasunberath.github.io/talk/miccai_papers/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
@@ -37,12 +59,66 @@ N. Navab, A. Maier. “X-ray-transform Invariant Anatomical Landmark Detection f
     </item>
     
     <item>
+      <title>Another DELTA Grant Awarded</title>
+      <link>https://mathiasunberath.github.io/talk/delta_awards_2019/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/delta_awards_2019/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Significance:&lt;/strong&gt; Machine learning and artificial intelligence (ML &amp;amp; AI) techniques are rapidly becoming a staple in healthcare research, but both healthcare and engineering workforces at Johns Hopkins lag behind in their capacity to advance innovation through interdisciplinary collaboration and to assimilate it into practice. Specifically, healthcare scientists need to understand machine learning algorithms, and engineers need to learn biases in healthcare data that affect performance and utility of algorithms. Addressing these learning needs is critical to foster interdisciplinary collaboration at Johns Hopkins and to enable the School of Medicine to shape the future of healthcare innovations through engineering (Goals 2 and 3 in JHU’s 10 by 20 priorities). Our goal is to develop an online course to equip clinicians and engineers with critical thinking skills to design, analyze, interpret, and report research on ML &amp;amp; AI in healthcare. The primary target population for this course, for purposes of this grant, is clinical care providers, faculties, and graduate trainees (residents, clinical &amp;amp; research post-doctoral fellows, doctoral students, and research staff) in the School of Medicine and the Whiting School of Engineering at Johns Hopkins. While we target a specific population for this grant, we have secured preliminary approval from the Engineering for Professionals Program at JHU for MOOC development of our course, which can enhance global visibility and impact of JHU as a leader in driving healthcare innovation using technology.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Innovation and Approach:&lt;/strong&gt; To our knowledge, none of the courses or curricula at Johns Hopkins address the comprehensive learning needs to build capacity in ML &amp;amp; AI in healthcare. The proposed course integrates principles from engineering and statistical sciences with two complementary parts. The first part is focused upon essential concepts of state-of-the-art machine learning methods. The second part is focused upon core concepts of design, bias, evaluation, and reporting in studies on engineering in healthcare. This course brings together educators with engineering, statistical, epidemiological, and clinical experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Evaluation and Expected Outcome:&lt;/strong&gt; In individual learners, we will evaluate skill acquisition using pre- and post-tests focused on the learning objectives of the course. To quantify impact on the University’s 10 by 20 priorities, we will survey Johns Hopkins personnel completing the course to enumerate downstream effects such as incident journal club sessions they lead within their divisions, new research studies, and collaborations focused upon ML &amp;amp; AI in healthcare.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emerson Collective Cancer Research Fund Awarded</title>
+      <link>https://mathiasunberath.github.io/talk/emerson_collective_2019/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/emerson_collective_2019/</guid>
+      <description>&lt;p&gt;Congratulations to my Co-PIs &lt;a href=&#34;https://www.hopkinsmedicine.org/profiles/results/directory/profile/10003528/tin-liu&#34; target=&#34;_blank&#34;&gt;Tin Yan Alvin Liu&lt;/a&gt; and &lt;a href=&#34;https://www.hopkinsmedicine.org/profiles/results/directory/profile/10004209/zelia-correa&#34; target=&#34;_blank&#34;&gt;Zelia Correa&lt;/a&gt; on being awarded an &lt;a href=&#34;http://www.emersoncollective.com/&#34; target=&#34;_blank&#34;&gt;Emerson Collective Cancer Research Grant&lt;/a&gt;. Our proposal targets digital pathology image analysis, where we will use deep learning for cancer prognostication in uveal melanoma.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Excited to be teaching at the First Medical Augmented Reality Summer School</title>
+      <link>https://mathiasunberath.github.io/talk/medicalarsummerschool_2019/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/medicalarsummerschool_2019/</guid>
+      <description>&lt;p&gt;I am very much looking forward to present our recent work on monocular depth estimation and 3D reconstruction in sinus endoscopy at the &lt;a href=&#34;https://sites.google.com/view/keepmarching/ssia-workshop&#34; target=&#34;_blank&#34;&gt;Inaugural Medical AI Research Collaboration Hub (MARCH) Workshop on Statistical and Shape-based Image Analysis With Applications in Medicine&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Excited to give a keynote at the CVPR Workshop on 3D Computer Vision in Medical Environments</title>
+      <link>https://mathiasunberath.github.io/talk/cvpr_cvme/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/cvpr_cvme/</guid>
+      <description>&lt;p&gt;I have been invited to talk about self-supervised depth estimation and reconstruction in endoscopy at the &lt;a href=&#34;https://cvme.github.io/&#34; target=&#34;_blank&#34;&gt;CVPR Workshop on 3D Computer Vision in Medical Environments&lt;/a&gt;, organized by Vivek Singh, Yao-Jen Chang, and Ankur Kapoor, all with&lt;a href=&#34;https://www.siemens-healthineers.com/en-us/&#34; target=&#34;_blank&#34;&gt;Siemens Healthineers&lt;/a&gt;. It was a great honor joining an outstanding lineup of speakers, including Nicolas Padoy (University of Strasbourg), Zicheng Liu (Microsoft Research), and Serena Yeung (Stanford University).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Excited to speak at Utah&#39;s Imaging Elevated Symposium</title>
       <link>https://mathiasunberath.github.io/talk/imaging_elevated/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>https://mathiasunberath.github.io/talk/imaging_elevated/</guid>
       <description>&lt;p&gt;I am very much looking forward to present our recent work on Augmented Reality and Machine Learning for image-guided procedures at this year&amp;rsquo;s &lt;a href=&#34;https://medicine.utah.edu/imaging-elevated/&#34; target=&#34;_blank&#34;&gt;Imaging Elevated Symposium of Emerging Investigators&lt;/a&gt; organized by the Department of Radiology and Imaging Sciences at the University of Utah. Many thanks to &lt;a href=&#34;https://medicine.utah.edu/faculty/mddetail.php?facultyID=u0114767&#34; target=&#34;_blank&#34;&gt;Frederic Noo&lt;/a&gt; for nominating me!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I will be speaking at the Inaugural MARCH Workshop on Statistical and Shape-based Image Analysis With Applications in Medicine</title>
+      <link>https://mathiasunberath.github.io/talk/march_aisinai/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/march_aisinai/</guid>
+      <description>&lt;p&gt;I am very much looking forward to present our recent work on monocular depth estimation and 3D reconstruction in sinus endoscopy at the &lt;a href=&#34;https://sites.google.com/view/keepmarching/ssia-workshop&#34; target=&#34;_blank&#34;&gt;Inaugural Medical AI Research Collaboration Hub (MARCH) Workshop on Statistical and Shape-based Image Analysis With Applications in Medicine&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -141,21 +217,6 @@ C. Gao, X.Liu, M. Peven, M. Unberath, A. Reiter. &amp;ldquo;Learning to See Forc
       <description>&lt;p&gt;&lt;strong&gt;Significance&lt;/strong&gt;: Treatment of unstable pelvic fractures relies on open reduction followed by internal fixation using surgical plates and screws, a surgery only performed by highly experienced and well-trained surgeons due to the complexity of the pelvic anatomy. The key challenge is the mental mapping of plate positioning and screw trajectories to the fractured anatomy in 3D, a skill that surgeons in training cannot easily acquire from conventional 2D training material such as textbooks, websites, or illustrations from their instructor. This suggests that an inherently 3-dimensional learning environment based on Augmented Reality (AR) has great potential to benefit surgeon training. Innovation and&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Approach&lt;/strong&gt;: Our goal is to develop a collaborative and interactive AR learning platform targeted at improving the understanding of spatial relations of plates, screws, and anatomy during open reduction and internal fixation of pelvic fractures. Our system will be realized as an immersive 3D AR environment based on Microsoft’s HoloLens that visualizes virtual models of anatomy, plates, screws, and simulates the X-ray camera view to the student and instructor. It will allow for manipulation of every component to enable interactive investigation of optimal positioning of implants. This tool is designed to benefit anatomical education, as it will allow students to navigate around 3D structures promoting improved geometric understanding, increased knowledge retention, and a higher appreciation of function and structure.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Machine Learning for Fluoroscopy-guided Procedures</title>
-      <link>https://mathiasunberath.github.io/project/learning_for_fluoro/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>https://mathiasunberath.github.io/project/learning_for_fluoro/</guid>
-      <description>&lt;p&gt;Machine learning-based approaches outperform competing methods in most disciplines relevant to diagnostic radiology. Interventional radiology, however, has not yet benefited substantially from the advent of deep learning, in particular because of two reasons: 1) Most images acquired during the procedure are never archived and are thus not available for learning, and 2) even if they were available, annotations would be a severe challenge due to the vast amounts of data. When considering fluoroscopy-guided procedures, an interesting alternative to true interventional fluoroscopy is &lt;em&gt;in silico&lt;/em&gt; simulation of the procedure from 3D diagnostic CT. In this case, labeling is comparably easy and potentially readily available.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;DeepDRR&lt;/strong&gt; on Github&lt;/p&gt;
-
-&lt;iframe style=&#34;display: inline-block;&#34; src=&#34;https://ghbtns.com/github-btn.html?user=mathiasunberath&amp;amp;repo=DeepDRR&amp;amp;type=star&amp;amp;count=true&amp;amp;size=large&#34; scrolling=&#34;0&#34; width=&#34;160px&#34; height=&#34;30px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-&lt;iframe style=&#34;display: inline-block;&#34; src=&#34;https://ghbtns.com/github-btn.html?user=mathiasunberath&amp;amp;repo=DeepDRR&amp;amp;type=fork&amp;amp;count=true&amp;amp;size=large&#34; scrolling=&#34;0&#34; width=&#34;158px&#34; height=&#34;30px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
