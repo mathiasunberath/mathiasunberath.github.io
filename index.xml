@@ -123,6 +123,32 @@ N. Navab, A. Maier. “X-ray-transform Invariant Anatomical Landmark Detection f
     </item>
     
     <item>
+      <title>IJCARS Best Paper Awards at MICCAI 2019</title>
+      <link>https://mathiasunberath.github.io/talk/2019-11-ijcars_awards/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/2019-11-ijcars_awards/</guid>
+      <description>&lt;p&gt;What a finish!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IJCARS Best Paper Award&lt;/strong&gt; for:
+Bier, B., Goldmann, F., Zaech, J.N., Fotouhi, J., Hegeman, R., Grupp, R., Armand, M., Osgood, G., Navab, N., Maier, A. and Unberath, M., 2019. Learning to detect anatomical landmarks of the pelvis in X-rays from arbitrary views. International journal of computer assisted radiology and surgery, pp.1-11.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IJCARS Best Paper Award, Runner up&lt;/strong&gt; for:
+Fotouhi&lt;sup&gt;&amp;#42;&lt;/sup&gt;, J., Unberath&lt;sup&gt;&amp;#42;&lt;/sup&gt;, M., Song, T., Hajek, J., Lee, S.C., Bier, B., Maier, A., Osgood, G., Armand, M. and Navab, N., 2019. Co-localized augmented human and X-ray observers in collaborative surgical ecosystem. International journal of computer assisted radiology and surgery, 14(9), pp.1553-1563. &lt;sup&gt;&amp;#42;&lt;/sup&gt; Joint first authors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Malone Center Seed Grant for research on glaucoma prognostication</title>
+      <link>https://mathiasunberath.github.io/talk/2019-10-maloneseedgrant/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://mathiasunberath.github.io/talk/2019-10-maloneseedgrant/</guid>
+      <description>&lt;p&gt;Congratulations to my Co-PI &lt;a href=&#34;https://www.hopkinsmedicine.org/profiles/results/directory/profile/10004332/jithin-yohannan&#34; target=&#34;_blank&#34;&gt;Jithin Yohannan&lt;/a&gt; on being awarded a &lt;a href=&#34;https://malonecenter.jhu.edu/2019/10/09/announcing-2019-malone-seed-grant-awards/&#34; target=&#34;_blank&#34;&gt;Malone Center Seed Grant&lt;/a&gt;. Our proposal targets glaucoma prognostication, where we will analyze functional, structural and clinical records to estimate risk of rapid worsening. Glaucoma is the second leading cause of blindness globally, with approximately 79.6 million people expected to be affected by the disease by 2020.  A small subset of glaucoma patients will experience rapid glaucoma worsening that, if untreated, can quickly lead to complete vision loss. Identifying these rapid progressors early is critical for ophthalmologists to perform interventions that can preserve a patient’s eyesight.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Presenting task-aware computer assistance on July 19th during the SAOT Innovation Day in Erlangen.</title>
       <link>https://mathiasunberath.github.io/talk/saot_innovation_day/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
@@ -190,33 +216,6 @@ C. Gao, X.Liu, M. Peven, M. Unberath, A. Reiter. &amp;ldquo;Learning to See Forc
       <description>&lt;p&gt;&lt;strong&gt;Significance&lt;/strong&gt;: Anatomy is one of the most challenging subject matters to both teach and learn, and facial anatomy is one of the most complex anatomical regions. Current education relies heavily on cadaveric dissection, supplemented by textbooks; however, human cadavers are expensive and limited in availability, and reading textbooks can feel like a chore to some students. Augmented reality (AR) has the potential to transform the process of learning human anatomy. By blending real and virtual objects, AR allows learners to immerse themselves in the subject matter and take an active role in the learning process. With this technology, students will interact with physiologically accurate and realistic 3-dimensional (3-D) anatomical structures to enhance their understanding of function, form, and spatial relationships. In addition, the 3-D environments are perceived as more lifelike, more interesting, and more enjoyable, which can increase desire to learn and translate into increased knowledge retention.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Innovation and Approach&lt;/strong&gt;: We propose the design of an augmented reality simulator for facial anatomy. To create this device, we will first digitize a highly detailed atlas of the human facial cardiovascular and nervous system. Second, we will develop an operating system-independent computer application that uses the webcam video stream to track the users face in real-time and superimpose the facial anatomy map on the user’s own face, mimicking a real-world physical mirror. This simulation device can be integrated into multiple courses currently offered at Johns Hopkins University, including the undergraduate, medical, and nursing schools. We will set up a project homepage with instructions on how to obtain, install, and run the AR learning software, and download links for our system. This tool will allow students to navigate within and around 3-D facial anatomical structures in a completely controlled environment. We hypothesize that students who use our AR environment will find learning more enjoyable and engaging, resulting in higher motivation to study with potential improved learning outcomes. In addition, this “magic mirror” effect (ie. interaction with anatomical structures personalized to the user’s own face) will evoke an emotional response that may have an additional influence on the learning process, for example, a deeper understanding and appreciation of function and structure.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Augmented Reality for Surgery</title>
-      <link>https://mathiasunberath.github.io/project/augmented_reality/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>https://mathiasunberath.github.io/project/augmented_reality/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Virtual monitors&lt;/strong&gt;: During traditional image-guided interventions, images are displayed on designated monitors that cannot be positioned optimally due to sterility and spatial constraints. With the aid of optical see-through head-mounted display, we present a novel &lt;em&gt;virtual&lt;/em&gt; monitor system that displays medical images in real-time in a mixed reality visualization, which can potentially alleviates the occlusion problem, improves hand-eye coordination, and reduces neck fatigue. The &lt;em&gt;virtual&lt;/em&gt; monitor system consists of a medical imaging modality, a frame grabber, an image processing framework, a data transfer network, and a head-mounted display. We identify the clinical requirements of such system for the targeted clinical usecase and consider medical image properties, visualization mode, perceptual quality, and surgery duration to materialize &lt;em&gt;virtual&lt;/em&gt; monitor systems appropriate for the respective clinical task.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Unprepared environments&lt;/strong&gt;: We present an on-the-fly surgical support system that provides guidance using Augmented Reality and can be used in quasi-unprepared operating rooms. The proposed system builds upon a multi-modality marker and simultaneous localization and mapping technique to co-calibrate an optical see-through head mounted display to a C-arm fluoroscopy system. Then, annotations on the 2-D X-ray images can be rendered as virtual objects in 3-D providing surgical guidance.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Dynamic calibration&lt;/strong&gt;: In percutaneous orthopedic interventions the surgeon attempts to reduce and fixate fractures in bony structures. The complexity of these interventions arises when the surgeon performs the challenging task of navigating surgical tools percutaneously only under the guidance of 2D interventional X-ray imaging. Moreover, the intra-operatively acquired data is only visualized indirectly on external displays. In this work, we propose a flexible Augmented Reality paradigm using optical see-through head mounted displays. The key technical contribution of this work includes the marker-less and dynamic tracking concept which closes the calibration loop between patient, C-arm and the surgeon. This calibration is enabled using Simultaneous Localization and Mapping of the environment, i.e. the operating theater. In return, the proposed solution provides
-&lt;em&gt;in situ&lt;/em&gt; visualization of pre- and intra-operative 3D medical data directly at the surgical site.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Educating Surgeons in Complex Pelvic Trauma</title>
-      <link>https://mathiasunberath.github.io/project/delta_ortho/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>https://mathiasunberath.github.io/project/delta_ortho/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Significance&lt;/strong&gt;: Treatment of unstable pelvic fractures relies on open reduction followed by internal fixation using surgical plates and screws, a surgery only performed by highly experienced and well-trained surgeons due to the complexity of the pelvic anatomy. The key challenge is the mental mapping of plate positioning and screw trajectories to the fractured anatomy in 3D, a skill that surgeons in training cannot easily acquire from conventional 2D training material such as textbooks, websites, or illustrations from their instructor. This suggests that an inherently 3-dimensional learning environment based on Augmented Reality (AR) has great potential to benefit surgeon training. Innovation and&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Approach&lt;/strong&gt;: Our goal is to develop a collaborative and interactive AR learning platform targeted at improving the understanding of spatial relations of plates, screws, and anatomy during open reduction and internal fixation of pelvic fractures. Our system will be realized as an immersive 3D AR environment based on Microsoft’s HoloLens that visualizes virtual models of anatomy, plates, screws, and simulates the X-ray camera view to the student and instructor. It will allow for manipulation of every component to enable interactive investigation of optimal positioning of implants. This tool is designed to benefit anatomical education, as it will allow students to navigate around 3D structures promoting improved geometric understanding, increased knowledge retention, and a higher appreciation of function and structure.&lt;/p&gt;
 </description>
     </item>
     
