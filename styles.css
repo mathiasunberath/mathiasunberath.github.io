@@ -463,7 +463,7 @@ a[data-fancybox] img {
   position: relative;
 }
 
-#profile .portrait {
+.portrait {
   background-image: url('../img/portrait.jpg');
   width: 200px;
   height: 200px;
@@ -472,14 +472,14 @@ a[data-fancybox] img {
   background-size: cover;
 }
 
-#profile .portrait-title h2 {
+.portrait-title h2 {
   font-size: 1.75em;
   font-weight: 300;
   color: #000000;
   margin: 20px 0 10px 0;
 }
 
-#profile .portrait-title h3 {
+.portrait-title h3 {
   font-size: 1rem;
   font-weight: 300;
   color: rgba(0,0,0, 0.54);
@@ -944,6 +944,41 @@ article .article-metadata {
 .card:hover .card-image.hover-overlay:after {
   opacity: 0.6;
 }
+
+/*************************************************
+ *  People widget
+ **************************************************/
+
+.people-widget {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.people-widget .portrait-title h2 {
+  font-size: 1rem;
+}
+
+.people-widget .portrait-title h3 {
+  font-size: 0.7rem;
+}
+
+.people-widget .portrait {
+  width: 80%;
+  max-width: 150px;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .people-widget  .col-sm-auto {
+    max-width: 30% !important;
+  }
+}
+@media (min-width: 992px) {
+  .people-widget  .col-sm-auto {
+    max-width: 20% !important;
+  }
+}
+
 
 /*************************************************
  *  Contact
@@ -1509,11 +1544,11 @@ body.dark {
   color: #fff;
 }
 
-.dark #profile .portrait-title h2 {
+.dark .portrait-title h2 {
   color: #fff;
 }
 
-.dark #profile .portrait-title h3 {
+.dark .portrait-title h3 {
   color: rgba(255, 255, 255, 0.54);
 }
 
