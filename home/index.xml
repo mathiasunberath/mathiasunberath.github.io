@@ -18,9 +18,9 @@
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
       
       <guid>https://mathiasunberath.github.io/home/hero/</guid>
-      <description>Imaging
+      <description>Computer Vision
 Machine Learning
-Augmented Realty</description>
+Augmented Realty and Robotics</description>
     </item>
     
     <item>
@@ -29,26 +29,8 @@ Augmented Realty</description>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>https://mathiasunberath.github.io/home/about/</guid>
-      <description>Biography I am an Assistant Research Professor in the Department of Computer Science at Johns Hopkins University and affiliated with the Laboratory for Computational Sensing and Robotics and the Malone Center for Engineering in Healthcare.
-I have created and am leading the ARCADE research group on Advanced Robotics and Computationally AugmenteD Environments, which focuses on computer vision, machine learning, and augmented reality and the application thereof to medical imaging, surgical robotics, and clinician-centric assistance systems.</description>
-    </item>
-    
-    <item>
-      <title>News</title>
-      <link>https://mathiasunberath.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>https://mathiasunberath.github.io/home/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://mathiasunberath.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>https://mathiasunberath.github.io/home/publications/</guid>
-      <description>For a comprehensive list of my publications please refer to either my CV or my Google Scholar.</description>
+      <description>Biography I am an Assistant Professor in the Department of Computer Science at Johns Hopkins University and affiliated with the Laboratory for Computational Sensing and Robotics and the Malone Center for Engineering in Healthcare.
+I have created and am leading the ARCADE research group on Advanced Robotics and Computationally AugmenteD Environments. We develop collaborative intelligent systems that support clinical workflows to increase the access to – and expand the possibilities of highest-quality healthcare.</description>
     </item>
     
   </channel>
