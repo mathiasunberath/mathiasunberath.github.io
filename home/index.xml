@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://mathiasunberath.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://mathiasunberath.github.io/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
       
       <guid>https://mathiasunberath.github.io/home/hero/</guid>
       <description>Computer Vision
@@ -26,11 +26,11 @@ Augmented Realty and Robotics</description>
     <item>
       <title></title>
       <link>https://mathiasunberath.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://mathiasunberath.github.io/home/about/</guid>
-      <description>Biography I am an Assistant Professor in the Department of Computer Science at Johns Hopkins University, core faculty in the Laboratory for Computational Sensing and Robotics, and Fellow of sthe Malone Center for Engineering in Healthcare.
-With my group, the ARCADE research group on Advanced Robotics and Computationally AugmenteD Environments, I advance healthcare by creating collaborative intelligent systems that support clinical workflows. Through synergistic research on imaging, computer vision, machine learning, and interaction design, we build human-centered solutions that are embodied in emerging technology such as mixed reality and robotics.</description>
+      <description>Biography I am the John C. Malone Associate Professor in the Department of Computer Science at Johns Hopkins University, core faculty in the Malone Center for Engineering in Healthcare and the Laboratory for Computational Sensing and Robotics, and affiliate faculty in the Institute for Assured Autonomy. I hold secondary appointments in the School of Medicine.
+With my group, the ARCADE research group on Advanced Robotics and Computationally AugmenteD Environments, I build the future of computer-assisted medicine.</description>
     </item>
     
   </channel>
