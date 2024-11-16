@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://mathiasunberath.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,18 +15,18 @@
     <item>
       <title></title>
       <link>https://mathiasunberath.github.io/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
       
       <guid>https://mathiasunberath.github.io/home/hero/</guid>
       <description>Computer Vision
 Machine Learning
-Augmented Realty and Robotics</description>
+Extended Realty and Robotics</description>
     </item>
     
     <item>
       <title></title>
       <link>https://mathiasunberath.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>https://mathiasunberath.github.io/home/about/</guid>
       <description>Biography I am the John C. Malone Associate Professor of Computer Science at Johns Hopkins University, core faculty in the Malone Center for Engineering in Healthcare and the Laboratory for Computational Sensing and Robotics, and affiliate faculty in the Institute for Assured Autonomy. I hold secondary appointments in the School of Medicine.
