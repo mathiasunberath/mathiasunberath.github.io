@@ -1,406 +1,263 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.41" />
+  <title>Mathias Unberath — Physical AI for Healthcare</title>
+  <meta name="description" content="Mathias Unberath is the John C. Malone Associate Professor of Computer Science at Johns Hopkins University and co-founder and CTO of Semaphor Surgical. He builds the future of physical AI for healthcare.">
   <meta name="author" content="Mathias Unberath">
 
-  
-  
-  
-  
-  <meta name="description" content="John C. Malone Associate Professor">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mathias Unberath">
+  <meta property="og:description" content="Building the future of physical AI for healthcare. Johns Hopkins University & Semaphor Surgical.">
+  <meta property="og:url" content="https://mathiasunberath.github.io/">
+  <meta property="og:image" content="https://mathiasunberath.github.io/img/profile_pic_mathias_new.jpg">
+  <meta property="og:locale" content="en_US">
 
-  
-  <link rel="alternate" hreflang="en-us" href="https://mathiasunberath.github.io/">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mathias Unberath">
+  <meta name="twitter:description" content="Building the future of physical AI for healthcare.">
+  <meta name="twitter:image" content="https://mathiasunberath.github.io/img/profile_pic_mathias_new.jpg">
 
-  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mathias Unberath",
+    "url": "https://mathiasunberath.github.io",
+    "image": "https://mathiasunberath.github.io/img/profile_pic_mathias_new.jpg",
+    "jobTitle": "John C. Malone Associate Professor of Computer Science",
+    "worksFor": [
+      {
+        "@type": "Organization",
+        "name": "Johns Hopkins University",
+        "url": "https://www.jhu.edu"
+      },
+      {
+        "@type": "Organization",
+        "name": "Semaphor Surgical",
+        "url": "https://semaphorsurgical.com"
+      }
+    ],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=1bd5mdIAAAAJ&hl=en",
+      "https://www.linkedin.com/in/mathias-unberath-64104891/",
+      "https://arcade.cs.jhu.edu/"
+    ],
+    "email": "mathias@jhu.edu"
+  }
+  </script>
 
-
-  
-
-  
-  
-  <meta name="theme-color" content="#0095eb">
-  
-  
-  
-  
-    
-  
-  
-    
-    
-      
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
-      
-    
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-  
-  
-  
-  
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
-  
-  <link rel="stylesheet" href="/styles.css">
-  
-
-  
-
-  
-  <link rel="alternate" href="https://mathiasunberath.github.io/index.xml" type="application/rss+xml" title="Mathias Unberath">
-  <link rel="feed" href="https://mathiasunberath.github.io/index.xml" type="application/rss+xml" title="Mathias Unberath">
-  
-
-  <link rel="manifest" href="/site.webmanifest">
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="apple-touch-icon" href="/img/icon-192.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/style.css">
 
   <link rel="canonical" href="https://mathiasunberath.github.io/">
-
-  <meta property="twitter:card" content="summary_large_image">
-  
-  <meta property="twitter:site" content="@MathiasUnberath">
-  <meta property="twitter:creator" content="@MathiasUnberath">
-  
-  <meta property="og:site_name" content="Mathias Unberath">
-  <meta property="og:url" content="https://mathiasunberath.github.io/">
-  <meta property="og:title" content="Mathias Unberath">
-  <meta property="og:description" content="John C. Malone Associate Professor">
-  <meta property="og:locale" content="en-us">
-  
-  <meta property="og:updated_time" content="2017-10-15T00:00:00-04:00">
-  
-
-  
-  
-
-  <title>Mathias Unberath</title>
-
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" class="dark">
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
-  <div class="container">
+<body>
+  <div class="page-wrapper">
 
-    
-    <div class="navbar-header">
-      
-      <a class="navbar-brand" href="/"><img src="/img/Logo_text.png" alt="Mathias Unberath"></a>
-    </div>
+    <!-- Header -->
+    <header class="site-header container animate delay-1" id="top">
+      <h1 class="site-name">Mathias Unberath</h1>
+      <p class="site-title">
+        John C. Malone Associate Professor &middot;
+        <a href="https://www.cs.jhu.edu/" target="_blank" rel="noopener">Johns Hopkins University</a>
+        <br>
+        Co-founder &amp; CTO &middot;
+        <a href="https://semaphorsurgical.com/" target="_blank" rel="noopener">Semaphor Surgical</a>
+      </p>
+    </header>
 
-    
-    <div class="collapse navbar-collapse">
-
-      
-      
-      <ul class="nav navbar-nav navbar-right">
-        
-      
-
-      
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-
-
-<span id="homepage" style="display: none"></span>
-
-
-  
-
-
-
-
-
-  
-  
-  
-    
-
-
-
-<section id="hero" class="hero-overlay" style="
-
-background-color: ZgotmplZ;
-
-
-background-image:
-linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), 
-url('https://mathiasunberath.github.io/img/banner.png');
-
-;">
-
-  <div class="container">
-
-    <h1 class="hero-title" itemprop="headline">
-      
-    </h1>
-
-    
-    <p class="hero-lead">Computer Vision<br>Machine Learning<br>Extended Realty and Robotics</p>
-    
-
-    
-
-  </div>
-
-</section>
-
-  
-
-  
-  
-  
-  <section id="about" class="home-section">
-    <div class="container">
-      
-
-
-
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
-  <div class="col-xs-12 col-md-4">
-    <div id="profile">
-
-      
-      <div class="portrait" style="background-image: url('/img/profile_casual_LQ.jpg');"></div>
-      <meta itemprop="image" content="https://mathiasunberath.github.io/img/profile_casual_LQ.jpg">
-      
-
-      <div class="portrait-title">
-        <h2 itemprop="name">Mathias Unberath</h2>
-        <h3 itemprop="jobTitle">John C. Malone Associate Professor</h3>
-
-        
-        
-
-        
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <a href="https://www.cs.jhu.edu/" target="_blank" itemprop="url" rel="noopener">
-          <span itemprop="name">Johns Hopkins University</span>
-          </a>
-        </h3>
-        
+    <!-- Profile Photo -->
+    <section class="photo-section container animate delay-2" id="photo" aria-label="Profile photo">
+      <div class="photo-wrapper">
+        <img
+          src="/img/profile_pic_mathias_new.jpg"
+          alt="Mathias Unberath in the ARCADE research lab at Johns Hopkins University"
+          width="1080"
+          height="1080"
+          loading="eager"
+        >
       </div>
+    </section>
 
-      <link itemprop="url" href="https://mathiasunberath.github.io/">
+    <!-- Biography -->
+    <section class="bio-section container animate delay-3" id="biography" aria-label="Biography">
+      <p>
+        I build the future of physical AI for healthcare &ndash; intelligent systems that perceive, reason, and act alongside people.
+      </p>
+      <p>
+        As the John C. Malone Associate Professor of Computer Science at
+        <a href="https://www.jhu.edu/" target="_blank" rel="noopener">Johns Hopkins University</a>
+        and co-founder and CTO of
+        <a href="https://semaphorsurgical.com/" target="_blank" rel="noopener">Semaphor Surgical</a>,
+        I advance this vision in both academia and industry.
+        My research pushes the boundaries of medical computer vision, machine learning, and human&ndash;computer interaction;
+        my company turns those breakthroughs into medtech products.
+      </p>
+      <p>
+        At Hopkins, I lead the
+        <a href="https://arcade.cs.jhu.edu/" target="_blank" rel="noopener">ARCADE Lab</a>
+        (Advanced Robotics and Computationally AugmenteD Environments),
+        where my multidisciplinary team invents human-centered AI systems &ndash;
+        embodied in technologies such as mixed reality and robotics &ndash;
+        that make healthcare smarter, safer, and more accessible.
+        I serve as Research Director for Interactive and Embodied AI in the
+        Johns Hopkins Data Science and AI Institute,
+        am a core member of the Malone Center for Engineering in Healthcare
+        and the Laboratory for Computational Sensing and Robotics,
+        and hold secondary appointments in the School of Medicine and the School of Nursing.
+      </p>
+      <p>
+        Through Semaphor Surgical, a venture-backed start-up I co-founded,
+        I am defining the frontier of procedural AI and building the infrastructure to ship it.
+      </p>
+      <p>
+        I earned my PhD <em>summa cum laude</em> in Computer Science from
+        Friedrich-Alexander-Universit&auml;t Erlangen-N&uuml;rnberg in 2017,
+        following studies in Physics and Optical Technologies at FAU,
+        a research stint at the University of Eastern Finland as an ERASMUS scholar,
+        and a fellowship at Stanford University as a DAAD fellow.
+        I have authored more than 200 peer-reviewed journal and conference articles,
+        received more than 20 international best-paper awards,
+        and have been recognized with the NSF CAREER Award,
+        the NIH NIBIB Trailblazer Award,
+        and the Google Research Scholar Award.
+      </p>
+    </section>
 
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        <li>
-          <a itemprop="sameAs" href="mailto:mathias@jhu.edu" target="_blank" rel="noopener">
-            <i class="fa fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        <li>
-          <a itemprop="sameAs" href="//twitter.com/MathiasUnberath" target="_blank" rel="noopener">
-            <i class="fa fa-twitter big-icon"></i>
-          </a>
-        </li>
-        
-        
-        <li>
-          <a itemprop="sameAs" href="//github.com/arcadelab" target="_blank" rel="noopener">
-            <i class="fa fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        <li>
-          <a itemprop="sameAs" href="//www.researchgate.net/profile/Mathias_Unberath" target="_blank" rel="noopener">
-            <i class="ai ai-researchgate big-icon"></i>
-          </a>
-        </li>
-        
-        
-        <li>
-          <a itemprop="sameAs" href="//scholar.google.de/citations?user=1bd5mdIAAAAJ&amp;hl" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-xs-12 col-md-8" itemprop="description">
-
-    
-
-<h1 id="biography">Biography</h1>
-
-<p>I am the John C. Malone Associate Professor of <a href="https://www.cs.jhu.edu/" target="_blank">Computer Science</a> at <a href="https://www.jhu.edu/" target="_blank">Johns Hopkins University</a>, core faculty in the <a href="https://malonecenter.jhu.edu/" target="_blank">Malone Center for Engineering in Healthcare</a> and the <a href="https://lcsr.jhu.edu/" target="_blank">Laboratory for Computational Sensing and Robotics</a>, and affiliate faculty in the <a href="https://iaa.jhu.edu/" target="_blank">Institute for Assured Autonomy</a>. I hold secondary appointments in the <a href="https://www.hopkinsmedicine.org/som" target="_blank">School of Medicine</a>.</p>
-
-<p>With my group, the <a href="https://arcade.cs.jhu.edu/" target="_blank"><strong>ARCADE</strong></a> research group on <em><strong>A</strong>dvanced</em> <em><strong>R</strong>obotics</em> and <em><strong>C</strong>omputationally</em> <em><strong>A</strong>ugmente<strong>D</strong></em> <em><strong>E</strong>nvironments</em>, I build the future of computer-assisted medicine. Through synergistic research on imaging, computer vision, machine learning, and interaction design, we build human-centered solutions that are embodied in emerging technology such as mixed reality and robotics.</p>
-
-<p>Previously, I was an Assistant Research Professor in Computer Science and postdoctoral fellow in the Laboratory for Computational Sensing and Robotics at Hopkins, and completed my PhD in Computer Science at the Friedrich-Alexander-Universität Erlangen-Nürnberg from which I graduated summa cum laude in 2017. While completing a Bachelor’s in Physics and Master’s in Optical Technologies at FAU Erlangen, I studied at the University of Eastern Finland as ERASMUS scholar in 2011 and joined Stanford University as DAAD fellow throughout 2014.</p>
-
-<p>I have published more than 175 journal and conference articles, and have received numerous awards, grants, and fellowships, including the NSF Career, NIH NIBIB R21 Trailblazer and Google Research Scholar Award, and more than 20 international paper awards.
-For a comprehensive list of publications, among other things, please refer to either my <a href="https://drive.google.com/drive/folders/1c_laidE0oLQZgrIKKUtzZFBO84rXeeU_?usp=sharing" target="_blank"><strong>CV</strong></a> or <a href="https://scholar.google.com/citations?user=1bd5mdIAAAAJ&amp;hl=en" target="_blank"><strong>Google Scholar</strong></a>.</p>
-
-<p>I teach <em>CS482/682 Machine Learning: Deep Learning</em>, <em>CS486/686 Artificial Intelligent System Design and Development</em>, and <em>CS486/686 Interpretable Machine Learning Design</em>.
-More information on my teaching is available at <a href="http://deep.cs.jhu.edu/" target="_blank"><strong>deep.cs.jhu.edu/</strong></a>.</p>
-
-
-    <div class="row">
-
-      
-      <div class="col-sm-5">
-        <h3>Interests</h3>
-        <ul class="ul-interests" style="list-style-type:none;padding-left:10pt">
-          
-          <li><strong>Computer Vision</strong>,</li>
-          
-          <li><strong>Machine Learning</strong>,</li>
-          
-          <li><strong>Human-computer Interaction</strong>,</li>
-          
-          <li><strong>Augmented and Virtual Reality</strong>, and</li>
-          
-          <li><strong>Robotics</strong></li>
-          
-		  <li>for clinical decision support.</li>
-        </ul>
-	</div>
-      
-
-      
-      <div class="col-sm-7">
-        <h3>Education</h3>
-        <ul class="ul-edu" style="list-style-type:none;padding-left:10pt">
-          
-          <li>
-            <div class="description">
-              <p class="course" style="margin-bottom:-3pt"><strong>PhD</strong> in Computer Science, 2017</p>
-              <p class="institution"><strong>FAU Erlangen</strong></p>
-            </div>
-          </li>
-          
-          <li>
-            <div class="description">
-              <p class="course" style="margin-bottom:-3pt"><strong>MSc</strong> in Optical Technologies, 2014</p>
-              <p class="institution"><strong>FAU Erlangen</strong> and <strong>Stanford University</strong></p>
-            </div>
-          </li>
-          
-          <li>
-            <div class="description">
-              <p class="course" style="margin-bottom:-3pt"><strong>BSc</strong> in Physics, 2012</p>
-              <p class="institution"><strong>FAU Erlangen</strong> and <strong>University of Eastern Finland</strong></p>
-            </div>
-          </li>
-          
-        </ul>
+    <!-- Lab Photo -->
+    <section class="lab-photo-section container animate delay-4" id="lab" aria-label="ARCADE Lab team photo">
+      <div class="lab-photo-wrapper">
+        <img
+          src="/img/lab_photo.jpg"
+          alt="Members of the ARCADE Lab at Johns Hopkins University standing in the research lab alongside a robotic arm and medical imaging equipment"
+          width="2400"
+          height="900"
+          loading="lazy"
+        >
+        <span class="lab-photo-caption">The ARCADE Lab</span>
       </div>
-      
+    </section>
 
-    </div>
-  </div>
-</div>
+    <!-- Links -->
+    <nav class="links-section container animate delay-5" id="links" aria-label="External links">
+      <div class="links-grid">
 
-    </div>
-  </section>
-  
-
-
-
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
-
-      &copy; 2018 &middot; 
-
-      Powered by the
-      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
+        <!-- ARCADE Lab -->
+        <a href="https://arcade.cs.jhu.edu/" target="_blank" rel="noopener" class="link-item" id="link-arcade">
+          <span class="link-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.3 24.3 0 0 1 4.5 0m0 0v5.714a2.25 2.25 0 0 0 .659 1.591L19 14.5m-4.75-11.396c.25.023.5.05.75.082M5 14.5l-1.43 1.43a1.5 1.5 0 0 0 0 2.12l1.5 1.5a1.5 1.5 0 0 0 2.12 0L8.5 18.25M19 14.5l1.43 1.43a1.5 1.5 0 0 1 0 2.12l-1.5 1.5a1.5 1.5 0 0 1-2.12 0L15.5 18.25"/>
+            </svg>
+          </span>
+          <span class="link-label">
+            ARCADE Lab
+            <span class="link-description">Research group at Johns Hopkins</span>
+          </span>
+          <span class="link-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
           </span>
         </a>
-      </span>
 
-    </p>
-  </div>
-</footer>
-
-
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Cite</h4>
-      </div>
-      <div>
-        <pre><code class="modal-body tex"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
-          <i class="fa fa-copy"></i> Copy
+        <!-- Semaphor Surgical -->
+        <a href="https://semaphorsurgical.com/" target="_blank" rel="noopener" class="link-item" id="link-semaphor">
+          <span class="link-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"/>
+            </svg>
+          </span>
+          <span class="link-label">
+            Semaphor Surgical
+            <span class="link-description">Defining the frontier of procedural AI and building the infrastructure to ship it.</span>
+          </span>
+          <span class="link-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
         </a>
-        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
-          <i class="fa fa-download"></i> Download
+
+        <!-- Google Scholar -->
+        <a href="https://scholar.google.com/citations?user=1bd5mdIAAAAJ&hl=en" target="_blank" rel="noopener" class="link-item" id="link-scholar">
+          <span class="link-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a23.54 23.54 0 0 0-2.688 3.202c3.484.862 6.854 2.142 10.069 3.792a46.087 46.087 0 0 1 10.069-3.792 23.54 23.54 0 0 0-2.688-3.202m-14.762 0L12 3.104l7.74 7.043"/>
+            </svg>
+          </span>
+          <span class="link-label">
+            Google Scholar
+          </span>
+          <span class="link-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
         </a>
-        <div id="modal-error"></div>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/mathias-unberath-64104891/" target="_blank" rel="noopener" class="link-item" id="link-linkedin">
+          <span class="link-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+            </svg>
+          </span>
+          <span class="link-label">
+            LinkedIn
+          </span>
+          <span class="link-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </a>
+
+        <!-- Full CV -->
+        <a href="https://drive.google.com/drive/folders/1c_laidE0oLQZgrIKKUtzZFBO84rXeeU_?usp=sharing" target="_blank" rel="noopener" class="link-item" id="link-cv">
+          <span class="link-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9z"/>
+            </svg>
+          </span>
+          <span class="link-label">
+            Full CV
+          </span>
+          <span class="link-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </a>
+
       </div>
-    </div>
+    </nav>
+
+    <!-- Footer -->
+    <footer class="site-footer container" id="footer">
+      <div class="divider"></div>
+      <div style="padding-top: 1.5rem;">
+        <p class="footer-email">
+          <a href="mailto:mathias@jhu.edu">mathias@jhu.edu</a>
+        </p>
+        <p class="footer-copy">&copy; 2026 Mathias Unberath</p>
+      </div>
+    </footer>
+
   </div>
-</div>
-
-    
-
-    
-    
-
-    
-
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-    
-    
-    <script src="/js/hugo-academic.js"></script>
-    
-
-    
-    
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-
-  </body>
+</body>
 </html>
-
-

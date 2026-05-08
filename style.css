@@ -1,0 +1,439 @@
+/* ============================================
+   Mathias Unberath — Personal Homepage
+   Minimal, modern, responsive
+   ============================================ */
+
+/* --- Design Tokens --- */
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #111118;
+  --bg-card: rgba(255, 255, 255, 0.03);
+  --text-primary: #e8e4df;
+  --text-secondary: #9a958e;
+  --text-muted: #5c5850;
+  --accent: #0077d8;
+  --accent-glow: rgba(0, 119, 216, 0.12);
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Instrument Serif', 'Georgia', serif;
+  --max-width: 700px;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 3.5rem;
+  --space-xl: 6rem;
+}
+
+/* --- Reset & Base --- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.7;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+/* --- Layout --- */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 0 var(--space-md);
+}
+
+/* --- Fade-in Animation --- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate {
+  opacity: 0;
+  animation: fadeInUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.25s; }
+.delay-3 { animation-delay: 0.4s; }
+.delay-4 { animation-delay: 0.55s; }
+.delay-5 { animation-delay: 0.7s; }
+
+/* --- Header / Identity --- */
+.site-header {
+  padding-top: clamp(var(--space-lg), 8vw, var(--space-xl));
+  padding-bottom: var(--space-md);
+  text-align: center;
+}
+
+.site-name {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  color: var(--text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.site-title {
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  font-weight: 400;
+  color: var(--text-secondary);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.site-title a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.site-title a:hover {
+  color: var(--text-primary);
+}
+
+/* --- Profile Photo --- */
+.photo-section {
+  padding: var(--space-md) 0;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.photo-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: linear-gradient(to top, var(--bg-primary) 0%, transparent 100%);
+  pointer-events: none;
+}
+
+.photo-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(10%) contrast(1.02);
+  transition: filter 0.5s ease;
+}
+
+.photo-wrapper:hover img {
+  filter: grayscale(0%) contrast(1.05);
+}
+
+/* --- Bio Section --- */
+.bio-section {
+  padding: var(--space-sm) 0 var(--space-lg);
+}
+
+.bio-section p {
+  font-size: clamp(0.95rem, 2.2vw, 1.05rem);
+  color: var(--text-primary);
+  line-height: 1.8;
+  margin-bottom: var(--space-sm);
+}
+
+.bio-section p:last-child {
+  margin-bottom: 0;
+}
+
+.bio-section a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.bio-section a:hover {
+  border-bottom-color: var(--accent);
+}
+
+.bio-section strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* --- Lab Photo Strip --- */
+.lab-photo-section {
+  padding: var(--space-md) 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lab-photo-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: var(--max-width);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.lab-photo-wrapper::before,
+.lab-photo-wrapper::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 30%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.lab-photo-wrapper::before {
+  top: 0;
+  background: linear-gradient(to bottom, var(--bg-primary) 0%, transparent 100%);
+}
+
+.lab-photo-wrapper::after {
+  bottom: 0;
+  background: linear-gradient(to top, var(--bg-primary) 0%, transparent 100%);
+}
+
+.lab-photo-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(15%) contrast(1.02);
+  transition: filter 0.6s ease;
+}
+
+.lab-photo-wrapper:hover img {
+  filter: grayscale(0%) contrast(1.05);
+}
+
+.lab-photo-caption {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.lab-photo-wrapper:hover .lab-photo-caption {
+  opacity: 1;
+}
+
+/* --- Links Section --- */
+.links-section {
+  padding: var(--space-md) 0 var(--space-lg);
+}
+
+.links-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--border-subtle);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: clamp(0.9rem, 2.5vw, 1.15rem) var(--space-md);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+.link-item:hover {
+  background: var(--accent-glow);
+}
+
+.link-item:hover .link-icon {
+  color: var(--accent);
+}
+
+.link-item:hover .link-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
+}
+
+.link-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.link-label {
+  flex: 1;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.link-description {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.link-arrow {
+  color: var(--text-muted);
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.link-arrow svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* --- Divider --- */
+.divider {
+  width: 48px;
+  height: 1px;
+  background: var(--border-subtle);
+  margin: 0 auto;
+}
+
+/* --- Footer --- */
+.site-footer {
+  padding: var(--space-lg) 0 var(--space-md);
+  text-align: center;
+}
+
+.footer-email a {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 0.3s ease;
+}
+
+.footer-email a:hover {
+  color: var(--accent);
+}
+
+.footer-copy {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: var(--space-sm);
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  .container {
+    padding: 0 var(--space-sm);
+  }
+
+  .photo-wrapper {
+    max-width: 280px;
+    border-radius: 12px;
+  }
+
+  .link-item {
+    padding: 0.85rem var(--space-sm);
+  }
+
+  .link-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .link-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .link-arrow {
+    opacity: 0.5;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 380px) {
+  .site-name {
+    font-size: 2rem;
+  }
+
+  .bio-section p {
+    font-size: 0.9rem;
+  }
+}
+
+/* --- Print --- */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .photo-wrapper::after,
+  .lab-photo-wrapper::before,
+  .lab-photo-wrapper::after,
+  .link-arrow {
+    display: none;
+  }
+
+  .link-item {
+    border-bottom: 1px solid #ccc;
+  }
+}
